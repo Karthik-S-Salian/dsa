@@ -1,5 +1,8 @@
 //WRITTEN BY GEMINI AI
 
+//downsamples a GRAYSCALE image
+//dont preserves aspect ratio
+
 fn area_downsample(
     input: &[u8],
     in_width: u32,
