@@ -1,0 +1,115 @@
+{
+  "sysroot_src": "/home/karthikssalian/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library",
+  "crates": [
+    {
+      "root_module": "./other/chiper.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/array_rotation.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/area_downsample.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/sub_numbers.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/asteroids.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/selection_sort.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/binary_search.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/letterCombo.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/bubble_sort.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/reverse_array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./other/linear_search.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/array_hashing/214_valid_anagram.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/array_hashing/238_product_array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/array_hashing/217_contain_duplicate.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/array_hashing/1_two-sum.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/array_hashing/347_top_k_element.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./neetcode/two_pointers/167_two_sum_sorted.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./38_count_and_say.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./75_sort_color.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./735_asteroid_collision.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./test.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "./53_max_subarray.rs",
+      "edition": "2021",
+      "deps": []
+    }
+  ]
+}
