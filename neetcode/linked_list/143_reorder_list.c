@@ -31,7 +31,36 @@ struct ListNode *traverse(struct ListNode *crr, struct ListNode *head)
     return temp;
 }
 
+struct ListNode *helper(struct ListNode *crr, struct ListNode *temp)
+{
+    if (temp == NULL)
+        return crr;
+
+    if (temp->next == NULL)
+    {
+        temp = crr->next;
+        crr->next = NULL;
+        return temp;
+    }
+
+    struct ListNode *next = helper(crr->next, temp->next->next);
+
+    if (crr->next == next)
+    {
+        temp = next->next;
+        next->next = NULL;
+        return temp;
+    }
+
+    temp = crr->next;
+    crr->next = next->next;
+    next->next = temp;
+    temp = crr->next;
+    crr->next = next;
+    return temp;
+}
+
 void reorderList(struct ListNode *head)
 {
-    traverse(head, head);
+    helper(head, head);
 }
