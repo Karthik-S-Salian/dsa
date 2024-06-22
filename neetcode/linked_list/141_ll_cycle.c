@@ -1,19 +1,24 @@
-#include<stdlib.h>
-#include<stdbool.h>
+#include <stdlib.h>
+#include <stdbool.h>
 
-  struct ListNode {
-      int val;
-      struct ListNode *next;
+struct ListNode
+{
+    int val;
+    struct ListNode *next;
 };
 
-bool hasCycle(struct ListNode *head) {
-    struct ListNode *fast  = head;
+// Floyds tortoise hare algorithm
 
-    while(fast && fast->next){
+bool hasCycle(struct ListNode *head)
+{
+    struct ListNode *fast = head;
+
+    while (fast && fast->next)
+    {
         head = head->next;
-        fast=fast->next->next;
-        if(head == fast)
-            return true; 
+        fast = fast->next->next;
+        if (head == fast)
+            return true;
     }
     return false;
 }
